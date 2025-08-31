@@ -17,3 +17,5 @@ fc-cache -fv
 # (Opcional) → Configure a fonte diretamente no terminal
 # No GNOME Terminal → Preferências → Perfis → Texto → Fonte Personalizada → JetBrainsMono Nerd Font
 ```
+
+[Próximo passo](instalando-o-starship.md)

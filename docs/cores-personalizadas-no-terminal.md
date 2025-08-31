@@ -52,3 +52,5 @@ Esquemas Embutidos → `Personalizado`
 | Branco   | Claro  | #FFFFFF | <span style="display:inline-block;width:20px;height:20px;background:#FFFFFF;border:1px solid #CCC;"></span> |
 
 Pronto! Só fechar e abrir o terminal para aplicar as alterações. Obs: Pode ser necessário encerrar a sessão e fazer um novo login.
+
+[Próximo passo](exportando-e-importando-um-perfil.md)

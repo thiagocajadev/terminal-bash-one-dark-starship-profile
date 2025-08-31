@@ -24,3 +24,6 @@ starship --version
 Feche e abra o terminal. Em alguns casos, pode ser necessário encerrar a sessão e logar novamente.
 
 Se quiser utilizar [presets](https://starship.rs/presets/) e parar por aqui, fique a vontade.
+
+
+[Próximo passo](cores-personalizadas-no-terminal.md)

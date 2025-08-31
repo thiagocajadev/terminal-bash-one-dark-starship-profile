@@ -123,3 +123,5 @@ dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
 
 É isso! Bons estudos e bons códigos!
+
+[Voltar ao início](../README.md)
