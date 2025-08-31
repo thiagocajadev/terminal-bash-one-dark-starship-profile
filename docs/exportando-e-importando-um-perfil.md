@@ -86,7 +86,7 @@ chmod +x import_terminal_profile.sh
 
 # Execute o script
 # ~/scripts/terminal 
-./importa_terminal_profile.sh
+./import_terminal_profile.sh
 
 # Feche e abra o terminal para aplicar as alterações
 ```
@@ -121,6 +121,38 @@ Depois de alguns testes, se você quiser apagar os perfis e deixar mais próximo
 # Lembre-se de ter feito um backup antes de executar, ele apaga tudo
 dconf reset -f /org/gnome/terminal/legacy/profiles:/
 ```
+
+### Instalando o lsd
+
+O **lsd (LSDeluxe)** é uma versão modernizada do ls (listar). Ele substitui o ls tradicional com alguns recursos extras:
+
+- Ícones: mostra ícones ao lado de arquivos e pastas, tipo exa.
+- Cores aprimoradas: esquemas de cores mais bonitos e personalizáveis.
+- Colunas e grid: pode exibir arquivos em colunas ou grids, não só linha por linha.
+- Extensível: suporta git status, tamanhos humanizados, etc.
+
+```bash
+# Instalando via snap
+sudo snap install lsd
+
+# Edite o arquivo de comandos do bash
+nano ~/.bashrc
+
+# Adicione ao final do arquivo esse alias e salve o arquivo
+alias ls='lsd --icon always'
+
+# Recarregue o bash
+source ~/.bashrc
+
+# Executa a listagem de diretórios
+ls
+
+# Pode ser necessário fechar e abrir o terminal. Em alguns casos, fazer um novo login.
+```
+
+Agora  mostrar arquivos com ícones (ex.: 📁 para pastas).
+
+![Exemplo com lsd](img/gnome-bash-terminal-after.png)
 
 É isso! Bons estudos e bons códigos!
 

@@ -7,7 +7,8 @@ Compartilho aqui minhas preferências de tema para uso do terminal no Ubuntu, qu
 - **Bash** - Terminal padrão no Ubuntu Gnome.
 - **JetBrainsMono Nerd Font** - Uma fonte nerd com ícones legais.
 - **Starship.rs** - Prompt minimalista e rápido.
-- Cores personalizadas, deixando o **shell** com uma carinha de **One Dark** (Antigo ATOM)
+- **Shell** - Cores personalizadas, deixando o **shell** com uma carinha de **One Dark** (Antigo ATOM).
+- **(LSDeluxe)** - Listando pastas com **lsd**.
 
 <details>
 <summary>Resumo passo a passo do script de importação do perfil...</summary>
