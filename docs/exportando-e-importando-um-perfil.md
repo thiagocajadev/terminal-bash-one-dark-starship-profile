@@ -27,7 +27,7 @@ mkdir -p ~/scripts/terminal/profiles && dconf dump /org/gnome/terminal/legacy/pr
 Aqui temos algumas opções para importar:
 
 1. Mais prática - Usando o **mesmo ID do perfil padrão**.
-2. Como um perfil novo - Basta **informar um UUID** e depois c**onfigurar o perfil como padrão**.
+2. Como um perfil novo - Basta **informar um UUID** e depois **configurar o perfil como padrão**.
 3. Usando o **script do projeto**, que automatiza o processo.
 
 ```bash
