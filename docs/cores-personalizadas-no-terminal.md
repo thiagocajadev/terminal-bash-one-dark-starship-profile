@@ -32,24 +32,25 @@ Esquemas Embutidos → `Personalizado`
 Esquemas Embutidos → `Personalizado`
 
 **Paleta de cores:**
-| Cor      | Tom    | Hex     | Visual                                                                                                      |
-|----------|--------|---------|-------------------------------------------------------------------------------------------------------------|
-| Preto    | Escuro | #282C34 | <span style="display:inline-block;width:20px;height:20px;background:#282C34;border:1px solid #CCC;"></span> |
-| Preto    | Claro  | #5E5C64 | <span style="display:inline-block;width:20px;height:20px;background:#5E5C64;"></span>                       |
-| Vermelho | Claro  | #E06C75 | <span style="display:inline-block;width:20px;height:20px;background:#E06C75;"></span>                       |
-| Vermelho | Escuro | #F66151 | <span style="display:inline-block;width:20px;height:20px;background:#F66151;"></span>                       |
-| Verde    | Claro  | #98C379 | <span style="display:inline-block;width:20px;height:20px;background:#98C379;"></span>                       |
-| Verde    | Escuro | #33D17A | <span style="display:inline-block;width:20px;height:20px;background:#33D17A;"></span>                       |
-| Amarelo  | Claro  | #E5C07B | <span style="display:inline-block;width:20px;height:20px;background:#E5C07B;"></span>                       |
-| Amarelo  | Escuro | #E9AD0C | <span style="display:inline-block;width:20px;height:20px;background:#E9AD0C;"></span>                       |
-| Azul     | Claro  | #61AFEF | <span style="display:inline-block;width:20px;height:20px;background:#61AFEF;"></span>                       |
-| Azul     | Escuro | #2A7BDE | <span style="display:inline-block;width:20px;height:20px;background:#2A7BDE;"></span>                       |
-| Roxo     | Claro  | #C678DD | <span style="display:inline-block;width:20px;height:20px;background:#C678DD;"></span>                       |
-| Roxo     | Escuro | #C061CB | <span style="display:inline-block;width:20px;height:20px;background:#C061CB;"></span>                       |
-| Ciano    | Escuro | #56B6C2 | <span style="display:inline-block;width:20px;height:20px;background:#56B6C2;"></span>                       |
-| Ciano    | Claro  | #33C7DE | <span style="display:inline-block;width:20px;height:20px;background:#33C7DE;"></span>                       |
-| Branco   | Escuro | #DCDFE4 | <span style="display:inline-block;width:20px;height:20px;background:#DCDFE4;"></span>                       |
-| Branco   | Claro  | #FFFFFF | <span style="display:inline-block;width:20px;height:20px;background:#FFFFFF;border:1px solid #CCC;"></span> |
+| Cor      | Tom    | Hex     | Referência aproximada |
+|----------|--------|---------|-----------------------|
+| Preto    | Escuro | #282C34 | ⬛                     |
+| Preto    | Claro  | #5E5C64 | ⬛                     |
+| Vermelho | Claro  | #E06C75 | 🟥                    |
+| Vermelho | Escuro | #F66151 | 🟥                    |
+| Verde    | Claro  | #98C379 | 🟩                    |
+| Verde    | Escuro | #33D17A | 🟩                    |
+| Amarelo  | Claro  | #E5C07B | 🟨                    |
+| Amarelo  | Escuro | #E9AD0C | 🟨                    |
+| Azul     | Claro  | #61AFEF | 🟦                    |
+| Azul     | Escuro | #2A7BDE | 🟦                    |
+| Roxo     | Claro  | #C678DD | 🟪                    |
+| Roxo     | Escuro | #C061CB | 🟪                    |
+| Ciano    | Escuro | #56B6C2 | 🟦                    |
+| Ciano    | Claro  | #33C7DE | 🟦                    |
+| Branco   | Escuro | #DCDFE4 | ⬜                     |
+| Branco   | Claro  | #FFFFFF | ⬜                     |
+
 
 Pronto! Só fechar e abrir o terminal para aplicar as alterações. Obs: Pode ser necessário encerrar a sessão e fazer um novo login.
 
