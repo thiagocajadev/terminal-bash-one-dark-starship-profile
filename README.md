@@ -15,14 +15,14 @@ Compartilho aqui minhas preferências de tema para uso do terminal no Ubuntu, qu
 ```bash
 #!/bin/bash
 
-# Passo 1: Gera um UUID único e armazená-lo em uma variável
+# Passo 1: Gera um UUID único e guarda em uma variável.
 echo "Gerando um UUID único..."
 UUID=$(uuidgen)
 echo "UUID gerado: $UUID"
 echo
 
-# Passo 2: Importa o novo perfil usando o UUID gerado
-# Substitua 'one_dark_profile.dconf' pelo caminho do seu arquivo de configuração de perfil
+# Passo 2: Importa o novo perfil usando o UUID gerado.
+# Substitua 'one_dark_profile.dconf' pelo caminho do seu arquivo de configuração de perfil.
 echo "Importando o perfil para o UUID $UUID..."
 dconf load /org/gnome/terminal/legacy/profiles:/:$UUID/ < "profiles/one_dark_profile.dconf"
 if [ $? -eq 0 ]; then
@@ -33,14 +33,14 @@ else
 fi
 echo
 
-# Passo 3: Adiciona o UUID à lista de perfis
+# Passo 3: Adiciona o UUID à lista de perfis.
 echo "Obtendo a lista atual de perfis..."
 CURRENT_LIST=$(dconf read /org/gnome/terminal/legacy/profiles:/list)
 if [ -z "$CURRENT_LIST" ]; then
-  # Se a lista estiver vazia, criar uma nova com o UUID
+  # Se a lista estiver vazia, cria uma nova com o UUID.
   NEW_LIST="['$UUID']"
 else
-  # Adicionar o novo UUID à lista existente
+  # Adiciona o novo UUID à lista existente.
   NEW_LIST=$(echo $CURRENT_LIST | sed "s/]/, '$UUID']/")
 fi
 echo
@@ -55,7 +55,7 @@ else
 fi
 echo
 
-# Passo 4: Define o novo UUID como perfil padrão
+# Passo 4: Define o novo UUID como perfil padrão.
 echo "Definindo o UUID $UUID como perfil padrão..."
 dconf write /org/gnome/terminal/legacy/profiles:/default "'$UUID'"
 if [ $? -eq 0 ]; then
