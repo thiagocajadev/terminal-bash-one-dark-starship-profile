@@ -1,0 +1,19 @@
+[/]
+background-color='rgb(40,44,52)'
+bold-color='rgb(0,0,0)'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cursor-blink-mode='system'
+cursor-colors-set=false
+cursor-foreground-color='rgb(255,255,255)'
+cursor-shape='block'
+default-size-columns=80
+font='JetBrainsMono Nerd Font 12'
+foreground-color='rgb(171,178,191)'
+highlight-colors-set=false
+highlight-foreground-color='rgb(92,99,112)'
+palette=['rgb(40,44,52)', 'rgb(224,108,117)', 'rgb(152,195,121)', 'rgb(229,192,123)', 'rgb(97,175,239)', 'rgb(198,120,221)', 'rgb(86,182,194)', 'rgb(220,223,228)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=true
+visible-name='One Dark'
